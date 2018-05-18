@@ -1,0 +1,538 @@
+html{
+	font-family: 'Verdana', 'arial', sans-serif;
+	font-size: 120%;
+}
+
+body{
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 15px; 
+	background-image: url('../imagens/background.jpg');
+}
+
+
+/*topo*/
+
+#logo{
+	width: 18%;
+	float:left;
+	margin: 2%;
+}
+
+#nome_site{
+	margin-top: 2%;	
+	width: 65%;
+	float: left;
+}
+
+
+.divider{
+	clear: both;
+	color: transparent;
+	height: 0px;
+}
+
+
+/*menu*/
+
+.itemMenu{
+	width: 13.9%;
+	float: left;
+	font-size: 140%;
+	color: #fff;
+	text-align: center;
+	padding: 1.2%;
+	background-color: none;
+
+}
+
+.itemMenu:hover{
+	font-size: 140%;
+	color: #3299CC;
+	border-bottom: solid 2px #3299CC;
+
+}
+
+.pesquisa{
+	width: 15%;
+	height: 25px;
+	margin-top: 1.2%;
+	font-size: 18px;
+	background-color: #1d1d1d;
+	color: white;
+	border-color: white;
+}
+
+a{
+	color: white;
+}
+
+.perfil{
+	margin-left: 78%;
+}
+
+#perfil{
+	margin-left: 78%
+}
+
+#perfil label{
+	color: white;
+}
+
+.user{
+	margin-top: -8%;
+	color: white;
+	font-size: 22px;
+}
+
+.logout{
+	color: white;
+	font-size: 18px;
+}
+
+.login_area{
+	width: 15%;
+	float: right;
+	margin-top: -8%;
+	margin-right: 4%;
+}
+
+.nomelogin{
+	font-style: normal;
+		color: white;
+}
+
+.login{
+	color: white;
+	margin-left: 1.7%;
+	margin-top: 17%;
+	background-color: #1d1d1d;
+	border: solid 2px white;
+	border-bottom: none;
+}
+
+.text_logged{
+	font-size: 30px;
+	text-align: center;
+	color: white;
+	margin-top: 21%;
+}
+
+#body_login{
+	color: grey;
+}
+
+.senha{
+	color: white;
+	background-color: #1d1d1d;
+	border: solid 2px white;
+}
+
+
+
+
+/*conteudo geral*/
+.coluna1{
+	width: 1%;
+	float: left;
+	color: transparent;
+}
+
+.coluna3{
+	width: 3.2%;
+	float: left;
+	color: transparent;
+}
+
+.coluna5{
+	width: 5%;
+	float: left;
+	color: transparent;
+}
+
+.coluna10{
+	width: 9.4%;
+	float: left;
+	color: transparent;
+}
+
+.coluna80{
+	margin-top: 3%;
+	width: 80%;
+	float: left;
+	border: 2px solid #28153c;
+	padding: 2%;
+}
+
+
+.foto{
+	width: 25%;
+	float: left;
+}
+
+
+.dados{
+	float: left;
+	margin-left: 5%;
+	width: 70%;
+	font-size: 150%;
+}
+
+.paginacao{
+	font-size: 250%;
+	font-weight: bold;
+	text-align: center;
+}
+
+.lista{
+	width: 93%;
+	float: left;
+	margin-right: 1%;
+	margin-left: 4%;
+}
+
+.lista2{
+	width: 31%;
+	float: left;
+}
+
+.lista3{
+	width: 9%;
+	text-align: center;
+	float: left;
+	border: 2px solid #28153c;
+	border-bottom: none;
+	margin-left: 1%;
+}
+
+.lista4{
+	width: 32%;
+	float: left;
+	border: 2px solid #28153c;
+	margin-left: 1%;
+}
+
+
+
+/* Pagina */
+
+.h1{
+	margin-left: 3.5%;
+}
+
+.h2{
+	margin-left: 1%;
+}
+
+
+/* Pagina */
+
+
+/* MENU JQUERY */
+
+.menujs{
+	float: left;
+	margin-top: 2px;
+	border: 2px solid #000;
+	padding: 8px;
+	width: 4.26%;
+	background: #300c50;
+	cursor:pointer;
+	color: #ccc	;
+}
+
+.menujs:hover{
+	background: #28153c;
+}
+
+.ativo{
+	color: #fff;
+}
+
+.conteudo{
+	width: 50%;
+	padding: 2px;
+}
+
+.escondido{
+	display: none;
+}
+
+
+
+/* MENU JQUERY */
+
+
+/* DROPDOWN MENU */
+
+.drpdwn{
+	float: left;
+	margin-bottom: 45%;
+	margin-left: 3%;
+	width: 850%;
+	border-left : 2px solid #3299CC;
+	font-size: 25px;
+}
+
+.drpdwn ul li{
+	margin-bottom: 1.5%;
+}
+
+.drpdwn ul li a{
+	text-decoration: none;
+}
+
+.drpdwn2{
+	float: left;
+	margin-bottom: 1%;
+	margin-left: 3%;
+	width: 99%;
+	border-left : 2px solid #3299CC;
+	font-size: 25px;
+}
+
+.drpdwn3{
+	float: left;
+	margin-bottom: 1%;
+	margin-left: 3%;
+	width: 99%;
+	border-left : 2px solid #3299CC;
+	font-size: 25px;
+}
+
+.drpdwn4{
+	float: left;
+	margin-bottom: 4%;
+	margin-left: 3%;
+	width: 99%;
+	border-left : 2px solid #3299CC;
+	font-size: 25px;
+}
+
+#ul{
+	list-style-type: none;
+}
+
+
+.itemCategoria{
+	color: white;
+	width: 7%;
+	margin-left: 3%;
+	margin-top: 11%;
+	font-size: 28px;
+}
+
+.itemCategoria1{
+	text-shadow: 2px 2px #000;
+	color: white;
+	width: 7%;
+	margin-left: 3%;
+	margin-top: 5%;
+	font-size: 28px;
+}
+
+.nomeCategoria:hover{
+	color: #3299CC;
+	cursor: pointer;
+}
+
+/* DROPDOWN MENU */
+
+
+
+/* CADASTRAR RESENHA */
+.centralizaCadastroResenha{
+	margin-left: 3%;
+	margin-top: 3%;
+	float: left;
+	width: 100%;
+}
+
+#cadastrar{
+	font-size: 18px;
+	margin-left: 3%;
+	margin-top: 2%;
+}
+
+#nomeNovaResenha{
+	margin-top: 0.4%;
+	margin-left: 4.5%;
+	float: left;	
+	width: 15%;
+	height: 25px;
+}
+
+
+#categoriaNovaResenha{
+	margin-top: 0.4%;
+	margin-left: 1%;
+	float: left;	
+	width: 15%;
+	height: 25px;
+}
+
+.notaNovaResenha{
+	margin-top: 1.5%;
+	margin-left: 2.7%;
+	float: left;	
+	width: 15%;
+	height: 25px;
+}
+
+#codNovaResenha{
+	margin-top: 0.5%;
+	margin-left: 3.5%;
+	float: left;	
+	width: 15%;
+	height: 25px;
+}
+
+.labelNovaResenha{
+	margin-left: 3%;
+	margin-bottom: 2%;
+	float: left;
+}
+
+#descricao{
+	margin-left: 1%;
+	margin-top: 0.4%;
+	width: 40%;
+	height: 155px;
+}
+
+.fotoNovaResenha{
+	margin-top: 0.7%;
+	margin-left: 6%;
+	float: left;	
+	width: 15%;
+	height: 25px;
+}
+
+#submitNovaResenha{
+	margin-left: 3%;
+	width: 10%;
+}
+
+/* CADASTRAR RESENHA */
+
+
+
+/*DETALHA JOGO*/
+
+.div{
+	height: 10px;
+}
+
+.descricaoProj{
+	margin-left: 50px;
+	margin-top: 20px;
+	float: left;
+}
+
+.titleDetalhe{
+	border-left: 4px solid #3299CC;
+	color: white;
+	font-size: 35px;
+	margin-bottom: 10px;
+}
+
+.titleMargin{
+	text-shadow: 2px 2px #000;
+	margin-left: 2%;
+	margin-bottom: 3%;
+}
+
+.generoMargin{
+	text-shadow: 2px 2px #000;
+	margin-top: -2%;
+	margin-left: 2%;
+}
+
+.h1Detalhe{
+	border-left: 2px solid #3299CC;
+	margin-left: 2.8%;
+	color: white;
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+
+
+.descDeta{
+	color: white;
+	width: 97%;
+	margin-bottom: 5%;
+}
+
+.botaoDetalhes{
+	margin-top: 10px;
+	margin-left: 65px;
+	background-color: #377097;
+    border-color: #3299CC;
+    color: white;
+    width: 675px;
+    height: 30px;
+}
+
+.botaoDetalhes:hover{
+	color: white;
+	background-image: url(Background.jpg);
+}
+
+
+/*Imagens do Detalhes do Jogo*/
+
+.imagens{
+	margin-left: 30px;
+	margin-top: 30px;
+
+}
+
+.imagensTitle{
+	color: white;
+	font-size: 40px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+.imagemProj{
+	float: left;
+	width: 400px;
+	height: 200px;
+	margin-left: 8%;
+	margin-bottom: 5%;
+}
+
+
+.nota{
+	float: left;
+	width: 23%;
+	margin-right: 50px;
+	margin-left: 14.5%;
+	margin-bottom: 5%;
+	text-align: center;
+	border: 2px solid #3299CC;
+
+}
+
+.notaNome{
+	text-shadow: 2px 2px #000;
+	color: white;
+	font-size: 23px;
+}
+
+.notaFinal{
+	text-shadow: 2px 2px #000;
+	color: #3299CC;
+	font-size: 15px;
+}
+
+/* RODAPE */
+
+#rodape{
+	color: transparent;
+	/*background-color: #000;*/
+	width: 100%;
+	height: 0.5px;
+	/*border: #000 solid 2px;*/
+	margin-top: 3%;
+	margin-bottom: 3%;
+}
