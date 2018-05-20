@@ -10,20 +10,17 @@
 
 ?>
 
-	<div class="coluna10">.</div>
-
-	<div class="coluna10">.</div>
 
 	<section class="descricaoProj">
 
 		<div class="titleDetalhe">
-			<h1 class="titleMargin"><?= $info[0]['nome'] ?></h1>
+			<h1 class="titleMargin"><?= $info['nome'] ?></h1>
 			<div class="divider">.</div>
-			<h5 class="generoMargin"><?= $info[0]['categoria']?></h5>
+			<h5 class="generoMargin"><?= $info['categoria']?></h5>
 		</div>
 
 		<div class="descDeta">
-			<p class="titleMargin"><?= $info[0]['descricao'] ?></p>
+			<p class="titleMargin"><?= $info['descricao'] ?></p>
 		</div>
 
 	</section>
@@ -34,9 +31,9 @@
 			<div class="h1Detalhe">
 				<h1 class="titleMargin">Imagens</h1>
 			</div>
-				<img src="<?= $info[0]['foto1'] ?>" class="imagemProj">
-				<img src="<?= $info[0]['foto2'] ?>" class="imagemProj">
-				<img src="<?= $info[0]['foto3'] ?>" class="imagemProj">
+				<img src="<?= $info['foto1'] ?>" class="imagemProj">
+				<img src="<?= $info['foto2'] ?>" class="imagemProj">
+				<img src="<?= $info['foto3'] ?>" class="imagemProj">
 		</section>
 
 
@@ -56,7 +53,7 @@
 					</div>
 
 					<div class="notaFinal">
-						<h4><?= $info[0]['usuario'] ?>%</h4>
+						<h4><?= $info['usuario'] ?>%</h4>
 					</div>
 
 				</div>
@@ -68,7 +65,7 @@
 					</div>
 
 					<div class="notaFinal">
-						<h4><?= $info[0]['steam'] ?>%</h4>
+						<h4><?= $info['steam'] ?>%</h4>
 					</div>
 				</div>
 				</div>

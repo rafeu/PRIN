@@ -6,24 +6,9 @@
 	"descricao": "Quando um malandro de rua, um ladrão de bancos aposentado e um psicopata aterrorizante se envolvem com alguns dos criminosos mais assustadores e loucos do submundo, o governo dos EUA e a indústria do entretenimento, eles devem realizar golpes ousados para sobreviver nessa cidade implacável onde não podem confiar em ninguém, nem mesmo um no outro.\n\nGrand Theft Auto V para PC oferece aos jogadores a opção de explorar o gigantesco e premiado mundo de Los Santos e Blaine County em resoluções de até 4K e além, assim como a chance de experimentar o jogo rodando a 60 FPS (quadros por segundo).\n\nO jogo oferece uma ampla seleção de opções de personalização específicas para o PC, com mais de 25 configurações separadas para qualidade de textura, sombreamentos, suavização de bordas e muito mais. Além disso, ele contém diversas opções de personalização dos controles de mouse e teclado. Entre as opções adicionais estão a densidade da população, o controle do tráfego de carros e pedestres, suporte para dois ou três monitores, compatibilidade com telas 3D e suporte para controle plug-and-play.",
 	"usuario" : "90",
 	"steam": "98",
-	"foto1": "imagens/jogos_acao/gtav1.jpg",	
-	"foto2": "imagens/jogos_acao/gtav2.jpg",
-	"foto3": "imagens/jogos_acao/gtav3.jpg"
+	"foto1": "imagens/gtav1.jpg",	
+	"foto2": "imagens/gtav2.jpg",
+	"foto3": "imagens/gtav3.jpg"
 	}
 
-	,{
-	"cod": "mb",
-    "nome"  : "Mario Bros",
-    "categoria": "Aventura",
-   	"descricao": "Super Mario Bros. é um jogo eletrônico lançado pela Nintendo em 1985. Considerado um clássico, Super Mario Bros. foi um dos primeiros jogos de plataforma com rolagem lateral, recurso conhecido em inglês como side-scrolling. Wikipédia"
-
-	}
-
-	,{
-	"cod": "mb",
-    "nome"  : "Mario Bros 2",
-    "categoria": "Aventura",
-   	"descricao": "Aventura de uma Super Mario Bros que entrou pelo cano. é um jogo eletrônico lançado pela Nintendo em 1985. Considerado um clássico, Super Mario Bros. foi um dos primeiros jogos de plataforma com rolagem lateral, recurso conhecido em inglês como side-scrolling. Wikipédia"
-
-	}
-]	
+ ]

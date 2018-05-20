@@ -4,7 +4,7 @@
 
 <section class="centralizaCadastroResenha">
     <div class="titleDetalhe">
-        <form method="post" action="php/insereResenha.php">
+        <form method="post" enctype="multipart/form-data" action="php/insereResenha.php">
 
             <label for="nome" class="labelNovaResenha">Nome</label>
             <input type="text" id="nomeNovaResenha" name="nome">
@@ -51,7 +51,7 @@
 
             <div class="divider"></div>
 
-            <input type="submit" name="enviar" id="submitNovaResenha">
+            <input type="submit" id="submitNovaResenha">
 
         </form>
     </div>
