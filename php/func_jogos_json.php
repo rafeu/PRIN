@@ -88,30 +88,6 @@
 
 
 
-
-
-
-  function erro(){
-    $erro = "";
-
-    if(isset($_POST["submit"])){
-
-      foreach($_POST as $item)
-      if(empty($item)){
-        $erro = "Por favor, informe o(a) $item do jogo.";  
-      }
-    }
-
-    return $erro;
-
-  }
-
-
-
-
-
-
-
   function listaJogosCategoria($categoria){
     $jogos = listaJogos();
 

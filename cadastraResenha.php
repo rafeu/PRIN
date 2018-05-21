@@ -1,5 +1,6 @@
 <?php   
     require "menu.php";
+    require "php/func_jogos_json.php";
 ?>
 
 <section class="centralizaCadastroResenha">

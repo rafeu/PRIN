@@ -423,9 +423,10 @@ a{
 }
 
 .descricaoProj{
-	margin-left: 50px;
-	margin-top: 20px;
+	margin-left: 3%;;
+	margin-top: 2%;
 	float: left;
+	width: 100%
 }
 
 .titleDetalhe{
