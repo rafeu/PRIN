@@ -1,7 +1,7 @@
 <?php
 	// session_start();
 	require "menu.php";
-	require "php/func_jogos_json.php";
+	require "php/funcoes.php";
 
 	$jogo = $_GET['cod'];
 

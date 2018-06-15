@@ -1,5 +1,5 @@
 <?php
-	session_start();
+	@session_start();
 ?>
 
 <!DOCTYPE html>
@@ -13,7 +13,7 @@
 	<meta charset="utf-8">
 	<title>Polar</title>
 </head>
-<body>
+<body style="background-color: black;">
 	<!-- cabeçalho -->
 	<header>
 		<a href="index.php"><img src="imagens/logoPolar.png" id="logo"/></a>
@@ -55,9 +55,15 @@
 			<label for="senha">Senha</label>
 			<input class="senha" type="password" name="senha">
 			<br>
-		<input type="submit" name="enviar">
+		<input type="submit" name="enviar" id="enviaLogin">
 	</form>
+	<article>
+		<section id="cadastrar" >
+			<a href="cadastraConta.php">Ainda não tem uma conta?</a>
+		</section>
+	</article>
 		</div>
+
 		<!-- F O R M  DE  L O G I N -->
 
 <?php
@@ -78,8 +84,8 @@
 		<a href="index.php"><section class="itemMenu">Home</section></a>
 		<a href="categorias.php"><section class="itemMenu">Categorias</section></a>
 		<a href="#"><section class="itemMenu">Novidades</section></a>
-		<a href="#"><section class="itemMenu">#</section></a>
-		<a href="#"><section class="itemMenu">#</section></a>
+		<a href="#"><section class="itemMenu">Notícias</section></a>
+		<a href="minhasResenhas.php"><section class="itemMenu">Minhas Resenhas</section></a>
 		<input class="pesquisa" type="search">
 
 		<div class="divider"></div>

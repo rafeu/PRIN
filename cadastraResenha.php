@@ -1,10 +1,10 @@
 <?php   
     require "menu.php";
-    require "php/func_jogos_json.php";
+    require "php/funcoes.php";
 ?>
 
 <section class="centralizaCadastroResenha">
-    <div class="titleDetalhe">
+    <div class="resenhaDetalhe">
         <form method="post" enctype="multipart/form-data" action="php/insereResenha.php">
 
             <label for="nome" class="labelNovaResenha">Nome</label>

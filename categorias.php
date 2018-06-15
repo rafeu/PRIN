@@ -1,6 +1,6 @@
 <?php 
 	require "menu.php"; 
-	include "php/func_jogos_json.php";
+	include "php/funcoes.php";
 
 	$catigurias = listarCategorias();
 
@@ -9,10 +9,16 @@
 
 <article>
 
-	<?php foreach($catigurias as $categoria): ?>
-	<section class="item itemCategoria1 dropdown" id="mydrop">
+	<?php 
+		
+		$i= 1;
+		
+		foreach($catigurias as $categoria):
+		
+	?>
+	<section class="item itemCategoria dropdown<?= $i ?>" id="mydrop">
 		<h1 class="nomeCategoria"><?= $categoria ?></h1>
-		<div class="drpdwn mydrop escondido">
+		<div class="drpdwn<?= $i ?> mydrop escondido">
 			
 
 
@@ -21,25 +27,22 @@
 				$jogosDaCategoria = listaJogosCategoria($categoria);
 				foreach ($jogosDaCategoria as $jogo):?>
 
-
-
-					<li><a href="jogo.php?cod=<?=$jogo['cod'] ?>"> <?= $jogo['nome'] ?> </a></li>
+				<a href="jogo.php?cod=<?=$jogo['cod'] ?>"><img class="logoJogos" src="<?= $jogo['foto1'] ?>"></a>
+				<div class="divider">.</div>
+				
+					<li>
+						<a href="jogo.php?cod=<?=$jogo['cod'] ?>" class="listaJG"> <?= $jogo['nome'] ?> </a>
+					</li>
 
 				<?php endforeach; ?>
-
+			
 			</ul>
 		</div>
 	</section>
-	<?php endforeach; 
-	if(@ $_SESSION['login']=="admin"){
-	?>
-	<div class="divider">.</div>
-	<article>
-		<section id="cadastrar" >
-			<a href="cadastraResenha.php">Deseja cadastrar uma nova resenha? Clique aqui.</a>
-		</section>
-	</article>
-	<?php } ?>
+
+	<div class="divider">.</div>	
+
+	<?php $i++; endforeach; ?>
 
 </article>
 

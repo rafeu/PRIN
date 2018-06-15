@@ -1,12 +1,10 @@
 html{
-	font-family: 'Verdana', 'arial', sans-serif;
 	font-size: 120%;
 }
 
 body{
 	font-family: Verdana, Arial, sans-serif;
-	font-size: 15px; 
-	background-image: url('../imagens/background.jpg');
+	font-size: 14px;
 }
 
 
@@ -32,10 +30,11 @@ body{
 }
 
 
-/*menu*/
+/*-------------------------------------------menu.php----------------------------------------*/
 
 .itemMenu{
 	width: 13.9%;
+	margin-bottom: 4%;
 	float: left;
 	font-size: 140%;
 	color: #fff;
@@ -98,7 +97,7 @@ a{
 
 .nomelogin{
 	font-style: normal;
-		color: white;
+	color: white;
 }
 
 .login{
@@ -127,10 +126,66 @@ a{
 	border: solid 2px white;
 }
 
+#enviaLogin{
+	margin-top: 3px;
+}
+
+/*-------------------------------------index.php-------------------------------------------*/
+
+.title_c{
+	color: white;
+}
+
+#inicial{
+	margin-left: 3%;
+	clear: both;
+}
+
+#myCarousel{
+	width: 100%;
+}
+
+.img_carrossel{
+	width: 60%;
+	float: left;
+}
+
+.descJG{
+	float: left;
+	margin-left: 20px;
+	width: 30%;
+	height: 100%;
+}
+
+.descJG a:hover{
+	color: #337ab7;
+	text-decoration: none;
+
+}
+
+.tituloJG a{
+	color: #337ab7;
+	font-size: 30px;
+	text-decoration: none;
+
+}
+
+.descricaoJG{
+	color: white;
+	font-size: 20px;
+	width: 80%;
+}
+
+.linkNoticia{
+	color: white;
+	font-size: 16px;
+}
 
 
 
-/*conteudo geral*/
+
+/*-------------------------------------conteudo geral--------------------------------------*/
+
 .coluna1{
 	width: 1%;
 	float: left;
@@ -211,9 +266,36 @@ a{
 	margin-left: 1%;
 }
 
+.iconzinhos{
+	width: 2%;
+	float: left;
+	margin-left: 4px;
+	margin-top: 3px;
+}
+
+.listaJG{
+	float: left;
+	margin-right: 81px;
+	text-align: center;
+}
+
+.listaMR{
+	float: left;
+	margin-right: 30px;
+}
+
+.logoJogos{
+	float: left;
+	width: 25%;
+}
+
+.eav{
+
+}
 
 
-/* Pagina */
+
+/*-------------------------------------pagina--------------------------------------*/
 
 .h1{
 	margin-left: 3.5%;
@@ -224,10 +306,10 @@ a{
 }
 
 
-/* Pagina */
+/*-------------------------------------pagina--------------------------------------*/
 
 
-/* MENU JQUERY */
+/*-------------------------------------menu jquery--------------------------------------*/
 
 .menujs{
 	float: left;
@@ -253,39 +335,25 @@ a{
 	padding: 2px;
 }
 
-.escondido{
-	display: none;
-}
+
+/*-------------------------------------menu jquery--------------------------------------*/
 
 
+/*-------------------------------------menu dropdown--------------------------------------*/
 
-/* MENU JQUERY */
-
-
-/* DROPDOWN MENU */
-
-.drpdwn{
+.drpdwn1{
 	float: left;
-	margin-bottom: 45%;
 	margin-left: 3%;
-	width: 850%;
+	width: 900%;
 	border-left : 2px solid #3299CC;
 	font-size: 25px;
-}
-
-.drpdwn ul li{
-	margin-bottom: 1.5%;
-}
-
-.drpdwn ul li a{
-	text-decoration: none;
 }
 
 .drpdwn2{
 	float: left;
 	margin-bottom: 1%;
 	margin-left: 3%;
-	width: 99%;
+	width: 900%;
 	border-left : 2px solid #3299CC;
 	font-size: 25px;
 }
@@ -294,7 +362,7 @@ a{
 	float: left;
 	margin-bottom: 1%;
 	margin-left: 3%;
-	width: 99%;
+	width: 900%;
 	border-left : 2px solid #3299CC;
 	font-size: 25px;
 }
@@ -303,30 +371,53 @@ a{
 	float: left;
 	margin-bottom: 4%;
 	margin-left: 3%;
-	width: 99%;
+	width: 900%;
 	border-left : 2px solid #3299CC;
 	font-size: 25px;
 }
 
+
+.drpdwn1 ul li{
+	margin-bottom: 1.5%;
+}
+.drpdwn2 ul li{
+	margin-bottom: 1.5%;
+}
+.drpdwn3 ul li{
+	margin-bottom: 1.5%;
+}
+.drpdwn4 ul li{
+	margin-bottom: 1.5%;
+}
+
+
+
+
+.drpdwn1 ul li a{
+	text-decoration: none;
+}
+.drpdwn2 ul li a{
+	text-decoration: none;
+}
+.drpdwn3 ul li a{
+	text-decoration: none;
+}
+.drpdwn4 ul li a{
+	text-decoration: none;
+}
+
 #ul{
 	list-style-type: none;
+	margin-bottom: 5%;
 }
 
 
 .itemCategoria{
-	color: white;
-	width: 7%;
-	margin-left: 3%;
-	margin-top: 11%;
-	font-size: 28px;
-}
-
-.itemCategoria1{
 	text-shadow: 2px 2px #000;
 	color: white;
 	width: 7%;
 	margin-left: 3%;
-	margin-top: 5%;
+	margin-top: 3%;
 	font-size: 28px;
 }
 
@@ -335,11 +426,27 @@ a{
 	cursor: pointer;
 }
 
-/* DROPDOWN MENU */
+.escondido{
+	display: none;
+}
+
+.aparencendo{
+	display: block;
+}
+
+
+/*-------------------------------------menu dropdown--------------------------------------*/
 
 
 
-/* CADASTRAR RESENHA */
+/*-------------------------------------cadastrar resenha--------------------------------------*/
+.resenhaDetalhe{
+	border-left: 4px solid #3299CC;
+	color: white;
+	font-size: 35px;
+	margin-bottom: 10px;
+}
+
 .centralizaCadastroResenha{
 	margin-left: 3%;
 	margin-top: 3%;
@@ -412,24 +519,24 @@ a{
 	width: 10%;
 }
 
-/* CADASTRAR RESENHA */
+/*-------------------------------------cadastrar resenha--------------------------------------*/
 
 
 
-/*DETALHA JOGO*/
+/*-------------------------------------detalha jogo--------------------------------------*/
 
 .div{
 	height: 10px;
 }
 
 .descricaoProj{
-	margin-left: 3%;;
-	margin-top: 2%;
+	margin-left: 50px;
+	margin-top: 20px;
 	float: left;
-	width: 100%
 }
 
 .titleDetalhe{
+	width: 300%;
 	border-left: 4px solid #3299CC;
 	color: white;
 	font-size: 35px;
@@ -438,14 +545,14 @@ a{
 
 .titleMargin{
 	text-shadow: 2px 2px #000;
-	margin-left: 2%;
+	margin-left: 1%;
 	margin-bottom: 3%;
 }
 
 .generoMargin{
 	text-shadow: 2px 2px #000;
 	margin-top: -2%;
-	margin-left: 2%;
+	margin-left: 1%;
 }
 
 .h1Detalhe{
@@ -479,7 +586,7 @@ a{
 }
 
 
-/*Imagens do Detalhes do Jogo*/
+/*-------------------------------------imagens do detalha jogo--------------------------------------*/
 
 .imagens{
 	margin-left: 30px;
@@ -526,14 +633,13 @@ a{
 	font-size: 15px;
 }
 
-/* RODAPE */
+/*-------------------------------------rodape--------------------------------------*/
 
 #rodape{
-	color: transparent;
-	/*background-color: #000;*/
+	background-color: #3299CC;
 	width: 100%;
-	height: 0.5px;
-	/*border: #000 solid 2px;*/
-	margin-top: 3%;
-	margin-bottom: 3%;
+	color: transparent;
+	border-top: #000 solid 2px;
+	margin-top: 5%;
+	padding: 5%;
 }
