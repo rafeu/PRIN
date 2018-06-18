@@ -13,7 +13,7 @@
 	<meta charset="utf-8">
 	<title>Polar</title>
 </head>
-<body style="background-color: black;">
+<body>
 	<!-- cabeçalho -->
 	<header>
 		<a href="index.php"><img src="imagens/logoPolar.png" id="logo"/></a>
@@ -58,7 +58,7 @@
 		<input type="submit" name="enviar" id="enviaLogin">
 	</form>
 	<article>
-		<section id="cadastrar" >
+		<section id="cadastrarLogin" >
 			<a href="cadastraConta.php">Ainda não tem uma conta?</a>
 		</section>
 	</article>
@@ -80,7 +80,7 @@
 	<div class='divider'></div>
 	<!-- menu -->
 	
-	<nav class="menu">
+	<nav>
 		<a href="index.php"><section class="itemMenu">Home</section></a>
 		<a href="categorias.php"><section class="itemMenu">Categorias</section></a>
 		<a href="#"><section class="itemMenu">Novidades</section></a>
@@ -89,11 +89,6 @@
 		<input class="pesquisa" type="search">
 
 		<div class="divider"></div>
-
-		<div class="coluna10">.</div>
-		<div class="coluna10">.</div>
-		<div class="coluna10">.</div>
-		<div class="coluna3">.</div>
 
 	</nav>
 	

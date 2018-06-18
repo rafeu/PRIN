@@ -46,3 +46,39 @@ $(document).ready(function(){
 
 	})
 })
+
+$(document).ready(function(){
+	$(".dropdown5").click(function(){
+		$(".drpdwn5").slideToggle('fast');
+			var id;
+
+			id = $(this).attr('id');
+
+			$(".escondido").toggleClass('aparecendo');
+
+	})
+})
+
+$(document).ready(function(){
+	$(".dropdown6").click(function(){
+		$(".drpdwn6").slideToggle('fast');
+			var id;
+
+			id = $(this).attr('id');
+
+			$(".escondido").toggleClass('aparecendo');
+
+	})
+})
+
+$(document).ready(function(){
+	$(".dropdown7").click(function(){
+		$(".drpdwn7").slideToggle('fast');
+			var id;
+
+			id = $(this).attr('id');
+
+			$(".escondido").toggleClass('aparecendo');
+
+	})
+})

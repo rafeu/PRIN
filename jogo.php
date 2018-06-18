@@ -20,7 +20,7 @@
 		</div>
 
 		<div class="descDeta">
-			<p class="titleMargin"><?= $info['descricao'] ?></p>
+			<p class="titleMargin" style="font-size: 16px;"><?= $info['descricao'] ?></p>
 		</div>
 
 	</section>

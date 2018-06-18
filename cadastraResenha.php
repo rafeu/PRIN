@@ -3,60 +3,75 @@
     require "php/funcoes.php";
 ?>
 
+	<section class="titulo">
+		<h1 class="tituloFonte">Cadastrar Resenhas</h1>
+	</section>
+
 <section class="centralizaCadastroResenha">
-    <div class="resenhaDetalhe">
+    <div class="titleDetalhe">
         <form method="post" enctype="multipart/form-data" action="php/insereResenha.php">
 
             <label for="nome" class="labelNovaResenha">Nome</label>
-            <input type="text" id="nomeNovaResenha" name="nome">
+            <br>
+            <input type="text" class="campoNovaResenha" name="nome">
 
             <div class="divider"></div>
 
             <label for="categoria" class="labelNovaResenha">Categoria</label>
-            <input type="text" id="categoriaNovaResenha" name="categoria">
+            <br>
+            <input type="text" class="campoNovaResenha" name="categoria">
 
             <div class="divider"></div>
 
             <label for="cod" class="labelNovaResenha">Código</label>
-            <input type="text" id="codNovaResenha" name="cod">
+            <br>
+            <input type="text" class="campoNovaResenha" name="cod">
 
             <div class="divider"></div>
 
             <label for="descricao" class="labelNovaResenha">Descrição</label>
-            <textarea id="descricao" name="descricao"></textarea>
+            <br>
+            <textarea class="descricao" name="descricao"></textarea>
 
             <div class="divider"></div>
 
             <label for="usuario" class="labelNovaResenha">Nota do<br />Usuário</label>
-            <input type="text" class="notaNovaResenha" name="usuario">
+            <div class="divider"></div>
+            <input type="text" class="campoNovaResenha" name="usuario">
 
             <div class="divider"></div>
 
             <label for="steam" class="labelNovaResenha">Nota da<br />Steam</label>
-            <input type="text" class="notaNovaResenha" name="steam">
+            <div class="divider"></div>
+            <input type="text" class="campoNovaResenha" name="steam">
 
             <div class="divider"></div>
 
             <label for="foto1" class="labelNovaResenha">Foto</label>
-            <input type="file" class="fotoNovaResenha" name="foto1">
+            <br>
+            <input type="file" class="campoNovaResenha" name="foto1">
 
             <div class="divider"></div>
 
             <label for="foto2" class="labelNovaResenha">Foto</label>
-            <input type="file" class="fotoNovaResenha" name="foto2">
+            <br>
+            <input type="file" class="campoNovaResenha" name="foto2">
 
             <div class="divider"></div>
 
             <label for="foto3" class="labelNovaResenha">Foto</label>
-            <input type="file" class="fotoNovaResenha" name="foto3">
+            <br>
+            <input type="file" class="campoNovaResenha" name="foto3">
 
             <div class="divider"></div>
 
-            <input type="submit" id="submitNovaResenha">
+            <input type="submit" class="submitNovaResenha">
 
         </form>
     </div>
 </section>
+
+<div class="divider"></div>
 
 <?php   
     include "rodape.php";

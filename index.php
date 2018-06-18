@@ -3,13 +3,14 @@
 	require "menu.php";
 ?>
 
-<head>
+<!-- 
+  <head>
   <meta charset="utf-8">
 
 
 
 
-  <!--                                   CARROSSEL INÍCIO                                          -->
+                                   CARROSSEL INÍCIO                                         
 
 
 
@@ -23,14 +24,14 @@
 		<div class="container carrossel">
   <h2 class="title_c">Novidades: </h2>  
   <div id="myCarousel" class="carousel slide" data-ride="carousel">
-    <!-- Indicators -->
+   
     <ol class="carousel-indicators">
       <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
       <li data-target="#myCarousel" data-slide-to="1"></li>
       <li data-target="#myCarousel" data-slide-to="2"></li>
     </ol>
 
-    <!-- Wrapper for slides -->
+   
     <div class="carousel-inner">
       <div class="item active">
         <img src="imagens/fortnite1.jpg" class="img_carrossel">
@@ -67,7 +68,7 @@
       </div>
     </div>
 
-    <!-- Left and right controls -->
+    
     <a class="left carousel-control" href="#myCarousel" data-slide="prev">
       <span class="glyphicon glyphicon-chevron-left"></span>
       <span class="sr-only">Previous</span>
@@ -81,7 +82,11 @@
 	</section>
 
 	
-	<!--                                   CARROSSEL FIM                                        -->
+                                  CARROSSEL FIM                                        -->
+
+  <section id="indexSemNada">
+    .
+  </section>
 
 <?php include("rodape.php"); ?>
 </body>

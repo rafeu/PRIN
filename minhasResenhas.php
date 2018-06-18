@@ -4,7 +4,7 @@
 
 	if (@$_SESSION['login'] == 'aluno' || @$_SESSION['login'] == 'admin') {
 	
-		require "menu.php"; 
+	require "menu.php"; 
 	include "php/funcoes.php";
 
 	$catigurias = listarCategorias();
@@ -13,6 +13,9 @@
 
 
 <article>
+	<section class="titulo">
+		<h1 class="tituloFonte">Minhas Resenhas</h1>
+	</section>
 
 	<?php 
 		
@@ -34,12 +37,15 @@
 
 				<li>
 					<a href="jogo.php?cod=<?=$jogo['cod'] ?>" class="listaMR"> <?= $jogo['nome'] ?> </a>
-						<section class="eav">
-								<a href="jogo.php?cod=<?=$jogo['cod'] ?>"><img src="imagens/visualizar.png" class="iconzinhos"></a>
-								<a href=""><img src="imagens/editar.png" class="iconzinhos"></a>
-								<a href=""><img src="imagens/excluir.png" class="iconzinhos"></a>
-						</section>
+					
+					<section class="eav">
+						<a href=""><img src="imagens/excluir.png" class="iconzinhos"></a>
+						<a href=""><img src="imagens/editar.png" class="iconzinhos"></a>
+						<a href="jogo.php?cod=<?=$jogo['cod'] ?>"><img src="imagens/visualizar.png" class="iconzinhos"></a>
+					</section>
 				</li>
+
+				<div class="divider"></div>
 
 				<?php endforeach; ?>
 			
@@ -56,7 +62,11 @@
 				<a href="cadastraResenha.php">Deseja cadastrar uma nova resenha? Clique aqui.</a>
 			</section>
 		</article>
-	<?php }else{ ?>
+
+<?php
+	include "rodape.php";
+	}else{ 
+?>
 
 	<head>
 		<link rel="stylesheet" type="text/css" href="css/completo.css">
@@ -65,7 +75,7 @@
 	<?php
 	
 		echo "<h1 class='text_logged'> Você precisa estar logado para acessar essa página. </h1>";
-		echo "<meta http-equiv='refresh' content='1.0;url=index.php' >";	
+		echo "<meta http-equiv='refresh' content='1.5;url=index.php' >";	
 
 	} 
 
@@ -73,6 +83,4 @@
 
 </article>
 
-<?php
-	include "rodape.php";
-?>
+

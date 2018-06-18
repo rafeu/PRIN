@@ -5,6 +5,7 @@ html{
 body{
 	font-family: Verdana, Arial, sans-serif;
 	font-size: 14px;
+	background-color: #171717;
 }
 
 
@@ -13,7 +14,9 @@ body{
 #logo{
 	width: 18%;
 	float:left;
-	margin: 2%;
+	margin-top: 1%;
+	margin-left: 2%;
+	margin-bottom: 0.5%;
 }
 
 #nome_site{
@@ -32,6 +35,7 @@ body{
 
 /*-------------------------------------------menu.php----------------------------------------*/
 
+
 .itemMenu{
 	width: 13.9%;
 	margin-bottom: 4%;
@@ -41,7 +45,6 @@ body{
 	text-align: center;
 	padding: 1.2%;
 	background-color: none;
-
 }
 
 .itemMenu:hover{
@@ -59,22 +62,26 @@ body{
 	background-color: #1d1d1d;
 	color: white;
 	border-color: white;
+	border-radius: 10px;
 }
 
 a{
 	color: white;
 }
 
-.perfil{
-	margin-left: 78%;
-}
-
 #perfil{
-	margin-left: 78%
+	width: 17%;
+	float: right;
+	margin-right: 1.5%;
 }
 
 #perfil label{
 	color: white;
+}
+
+#cadastrarLogin{
+	font-size: 16px;
+	margin-top: 2%;
 }
 
 .user{
@@ -103,17 +110,19 @@ a{
 .login{
 	color: white;
 	margin-left: 1.7%;
-	margin-top: 17%;
+	margin-top: 11%;
 	background-color: #1d1d1d;
 	border: solid 2px white;
-	border-bottom: none;
+	border-radius: 6px;
 }
 
 .text_logged{
+	background-color: #171717;
 	font-size: 30px;
 	text-align: center;
 	color: white;
 	margin-top: 21%;
+	border-bottom: 2px solid #3299CC;
 }
 
 #body_login{
@@ -121,16 +130,51 @@ a{
 }
 
 .senha{
+	margin-top: 5px;
 	color: white;
 	background-color: #1d1d1d;
 	border: solid 2px white;
+	border-radius: 6px;
 }
 
 #enviaLogin{
 	margin-top: 3px;
 }
 
+.labelNovoUsuario{
+	margin-left: 1%;
+}
+
+.campoNovoUsuario, 
+.campoNovaResenha{
+	margin-left: 1%;
+	margin-bottom: 2%;
+	width: 30%;
+	height: 25px;
+}
+
+.submitNovoUsuario,
+.submitNovaResenha{
+	margin-left: 1%;
+	width: 30%;
+	height: 25px
+}
+
 /*-------------------------------------index.php-------------------------------------------*/
+.titulo{
+	width: 100%;
+	text-align: center;
+}
+
+.tituloFonte{
+	text-shadow: 2px 2px #000;
+	color: white;
+	width: 25%;
+	margin-left: 37.5%;
+	margin-bottom: 6%;
+	font-size: 28px;
+	border-bottom: 2px solid #3299CC;
+}
 
 .title_c{
 	color: white;
@@ -167,7 +211,6 @@ a{
 	color: #337ab7;
 	font-size: 30px;
 	text-decoration: none;
-
 }
 
 .descricaoJG{
@@ -188,6 +231,7 @@ a{
 
 .coluna1{
 	width: 1%;
+	margin-bottom: 10%;
 	float: left;
 	color: transparent;
 }
@@ -218,7 +262,6 @@ a{
 	padding: 2%;
 }
 
-
 .foto{
 	width: 25%;
 	float: left;
@@ -238,38 +281,10 @@ a{
 	text-align: center;
 }
 
-.lista{
-	width: 93%;
-	float: left;
-	margin-right: 1%;
-	margin-left: 4%;
-}
-
-.lista2{
-	width: 31%;
-	float: left;
-}
-
-.lista3{
-	width: 9%;
-	text-align: center;
-	float: left;
-	border: 2px solid #28153c;
-	border-bottom: none;
-	margin-left: 1%;
-}
-
-.lista4{
-	width: 32%;
-	float: left;
-	border: 2px solid #28153c;
-	margin-left: 1%;
-}
-
 .iconzinhos{
 	width: 2%;
-	float: left;
-	margin-left: 4px;
+	float: right;
+	margin-right: 1%;
 	margin-top: 3px;
 }
 
@@ -284,9 +299,15 @@ a{
 	margin-right: 30px;
 }
 
+.centralizaJogo{
+	float: left;
+	margin-left: 3%;
+	width: 20%;
+}
+
 .logoJogos{
 	float: left;
-	width: 25%;
+	width: 75%;
 }
 
 .eav{
@@ -311,20 +332,7 @@ a{
 
 /*-------------------------------------menu jquery--------------------------------------*/
 
-.menujs{
-	float: left;
-	margin-top: 2px;
-	border: 2px solid #000;
-	padding: 8px;
-	width: 4.26%;
-	background: #300c50;
-	cursor:pointer;
-	color: #ccc	;
-}
 
-.menujs:hover{
-	background: #28153c;
-}
 
 .ativo{
 	color: #fff;
@@ -343,8 +351,8 @@ a{
 
 .drpdwn1{
 	float: left;
-	margin-left: 3%;
-	width: 900%;
+	margin-bottom: 3%;
+	width: 97%;
 	border-left : 2px solid #3299CC;
 	font-size: 25px;
 }
@@ -352,8 +360,7 @@ a{
 .drpdwn2{
 	float: left;
 	margin-bottom: 1%;
-	margin-left: 3%;
-	width: 900%;
+	width: 97%;
 	border-left : 2px solid #3299CC;
 	font-size: 25px;
 }
@@ -361,8 +368,7 @@ a{
 .drpdwn3{
 	float: left;
 	margin-bottom: 1%;
-	margin-left: 3%;
-	width: 900%;
+	width: 97%;
 	border-left : 2px solid #3299CC;
 	font-size: 25px;
 }
@@ -370,24 +376,23 @@ a{
 .drpdwn4{
 	float: left;
 	margin-bottom: 4%;
-	margin-left: 3%;
-	width: 900%;
+	width: 97%;
 	border-left : 2px solid #3299CC;
 	font-size: 25px;
 }
 
 
 .drpdwn1 ul li{
-	margin-bottom: 1.5%;
+	margin-top: 1.5%;
 }
 .drpdwn2 ul li{
-	margin-bottom: 1.5%;
+	margin-top: 1.5%;
 }
 .drpdwn3 ul li{
-	margin-bottom: 1.5%;
+	margin-top: 1.5%;
 }
 .drpdwn4 ul li{
-	margin-bottom: 1.5%;
+	margin-top: 1.5%;
 }
 
 
@@ -408,14 +413,14 @@ a{
 
 #ul{
 	list-style-type: none;
-	margin-bottom: 5%;
+	margin-bottom: 1%;
 }
 
 
 .itemCategoria{
 	text-shadow: 2px 2px #000;
 	color: white;
-	width: 7%;
+	width: 97%;
 	margin-left: 3%;
 	margin-top: 3%;
 	font-size: 28px;
@@ -449,74 +454,26 @@ a{
 
 .centralizaCadastroResenha{
 	margin-left: 3%;
-	margin-top: 3%;
 	float: left;
 	width: 100%;
+}
+
+.descricao{
+	margin-left: 1%;
+	margin-bottom: 2%;
+	height: 155px;
+	width: 30%;
+}
+
+.labelNovaResenha{
+	margin-left: 1%;
+	float: left;
 }
 
 #cadastrar{
 	font-size: 18px;
 	margin-left: 3%;
 	margin-top: 2%;
-}
-
-#nomeNovaResenha{
-	margin-top: 0.4%;
-	margin-left: 4.5%;
-	float: left;	
-	width: 15%;
-	height: 25px;
-}
-
-
-#categoriaNovaResenha{
-	margin-top: 0.4%;
-	margin-left: 1%;
-	float: left;	
-	width: 15%;
-	height: 25px;
-}
-
-.notaNovaResenha{
-	margin-top: 1.5%;
-	margin-left: 2.7%;
-	float: left;	
-	width: 15%;
-	height: 25px;
-}
-
-#codNovaResenha{
-	margin-top: 0.5%;
-	margin-left: 3.5%;
-	float: left;	
-	width: 15%;
-	height: 25px;
-}
-
-.labelNovaResenha{
-	margin-left: 3%;
-	margin-bottom: 2%;
-	float: left;
-}
-
-#descricao{
-	margin-left: 1%;
-	margin-top: 0.4%;
-	width: 40%;
-	height: 155px;
-}
-
-.fotoNovaResenha{
-	margin-top: 0.7%;
-	margin-left: 6%;
-	float: left;	
-	width: 15%;
-	height: 25px;
-}
-
-#submitNovaResenha{
-	margin-left: 3%;
-	width: 10%;
 }
 
 /*-------------------------------------cadastrar resenha--------------------------------------*/
@@ -536,10 +493,10 @@ a{
 }
 
 .titleDetalhe{
-	width: 300%;
+	width: 96%;
 	border-left: 4px solid #3299CC;
 	color: white;
-	font-size: 35px;
+	font-size: 23px;
 	margin-bottom: 10px;
 }
 
@@ -605,7 +562,7 @@ a{
 	float: left;
 	width: 400px;
 	height: 200px;
-	margin-left: 8%;
+	margin-left: 5.7%;
 	margin-bottom: 5%;
 }
 
@@ -614,7 +571,7 @@ a{
 	float: left;
 	width: 23%;
 	margin-right: 50px;
-	margin-left: 14.5%;
+	margin-left: 16.5%;
 	margin-bottom: 5%;
 	text-align: center;
 	border: 2px solid #3299CC;
@@ -636,10 +593,19 @@ a{
 /*-------------------------------------rodape--------------------------------------*/
 
 #rodape{
+	position: relative;
 	background-color: #3299CC;
 	width: 100%;
-	color: transparent;
+	height: 200px;
 	border-top: #000 solid 2px;
-	margin-top: 5%;
-	padding: 5%;
+	margin-top: 20%;
+	padding: 35px 0px;
+
+	opacity: 0.5;
+}
+
+#indexSemNada{
+	height: 250px;
+	color: transparent;
+	background-color: transparent;
 }

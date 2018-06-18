@@ -37,7 +37,7 @@
 	}else{
 		echo "<h1 class='text_logged'> Dados inválidos </h1>";
 		//redireciona para a página do formulário de login
-		echo "<meta http-equiv='refresh' content='1.;url=../index.php' >";
+		echo "<meta http-equiv='refresh' content='1.5.;url=../index.php' >";
 	}
 	?>
 </body>
