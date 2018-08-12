@@ -1,0 +1,30 @@
+[
+    {
+        "nome": "Administrador",
+        "nomeUser": "admin",
+        "email": "admin.polar@gmail.com",
+        "senha": "admin",
+        "foto1": "imagens\/Black Rain nuvem.png"
+    },
+    {
+        "nome": "Gustavo Baierski",
+        "nomeUser": "askynt",
+        "email": "gustavobaierski@gmail.com",
+        "senha": "teste",
+        "foto1": "imagens\/3micro.png"
+    },
+    {
+        "nome": "Rafael Corr\u00eaa",
+        "nomeUser": "rc0270",
+        "email": "rc0270@gmail.com",
+        "senha": "rafael",
+        "foto1": "imagens\/4micro.jpg"
+    },
+    {
+        "nome": "Thaynara Bacca",
+        "nomeUser": "bacca",
+        "email": "caroline@gmail.com",
+        "senha": "nathangostoso",
+        "foto1": "imagens\/gato.jpg"
+    }
+]

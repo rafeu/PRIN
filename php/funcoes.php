@@ -11,8 +11,9 @@
 
     $novoUsuario = array(
           'nome' => $_POST['nome'],
-          'nomeUsuario' => $_POST['nomeUsuar'],
+          'nomeUser' => $_POST['nomeUser'],
           'email' => $_POST['email'],
+          'senha' => $_POST['senha'],
           'foto1' => $destino[0][0], 
           );
 
@@ -34,13 +35,12 @@
 
 
   function listaJogos(){
-    $jogos_json =  file_get_contents('dados/jogos.json');
+
+    $jogos_json = file_get_contents('dados/jogos.json');
     $jogos = json_decode($jogos_json, true);
 
     return $jogos;
-
   }
-
 
 
 
@@ -51,11 +51,10 @@
 
     $mensagem = "";
 
-    $jogos_json =  file_get_contents('../dados/jogos.json');
-    $atual = json_decode($jogos_json, true);
+    $atual = listaJogos();
 
     $novoJogo = array(
-          'cod' => $_POST['cod'],
+          'cod' => uniqid(),
           'nome' => $_POST['nome'],
           'categoria' => $_POST['categoria'],
           'descricao' => $_POST['descricao'],
@@ -172,4 +171,43 @@
 
     return $selecionados;
 
+  }
+
+
+
+
+  function buscaContas(){
+
+    @$contas_json =  file_get_contents('dados/usuarios.json');
+    $contas = json_decode($contas_json, true);
+    
+    return $contas;
+  }
+
+
+
+
+
+
+  function pesquisar(){
+
+    $jogos = listaJogos();
+
+    $jogos_encontrados = []; 
+
+    foreach ($jogos as $jogo) {
+
+      $nome = strtolower($jogo['nome']);
+      $busca = trim(strtolower($_GET['campo_busca']));
+
+
+      if (strpos($nome, $busca) !== false) {
+
+        $jogos_encontrados[] = $jogo;
+      
+      }
+    }
+
+
+    return $jogos_encontrados;
   }

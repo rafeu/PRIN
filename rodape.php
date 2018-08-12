@@ -1,7 +1,7 @@
     <div class="coluna1"></div>
     
-    <floor>
+    <footer>
         <div id="rodape"></div>
-    </floor>
+    </footer>
 </body>
 </html>

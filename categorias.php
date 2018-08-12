@@ -1,6 +1,6 @@
 <?php 
 	require "menu.php"; 
-	include "php/funcoes.php";
+	require "php/funcoes.php";
 
 	$catigurias = listarCategorias();
 
@@ -15,11 +15,12 @@
 
 	<?php 
 		
-		$i= 1;
+		$i = 1;
 		
 		foreach($catigurias as $categoria):
 		
 	?>
+
 	<section class="item itemCategoria dropdown<?= $i ?>" id="mydrop">
 		<h1 class="nomeCategoria"><?= $categoria ?></h1>
 		<div class="drpdwn<?= $i ?> mydrop escondido">
@@ -35,7 +36,7 @@
 				<div class="divider"></div>
 				
 				<li>
-					<a href="jogo.php?cod=<?=$jogo['cod'] ?>" class="listaJG"> <?= $jogo['nome'] ?> </a>
+					<a class="link" href="jogo.php?cod=<?=$jogo['cod'] ?>" class="listaJG"> <?= $jogo['nome'] ?> </a>
 				</li>
 
 				</section>

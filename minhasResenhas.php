@@ -2,7 +2,7 @@
 	
 	session_start();
 
-	if (@$_SESSION['login'] == 'aluno' || @$_SESSION['login'] == 'admin') {
+	if (!empty(@$_SESSION['login'])) {
 	
 	require "menu.php"; 
 	include "php/funcoes.php";
