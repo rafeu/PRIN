@@ -9,7 +9,9 @@
         "steam": "98",
         "foto1": "imagens\/gtav1.jpg",
         "foto2": "imagens\/gtav2.jpg",
-        "foto3": "imagens\/gtav3.jpg"
+        "foto3": "imagens\/gtav3.jpg",
+        "pasta": "false",
+        "preco": "49,99"
     },
     {
         "cod": "bfbc2",
@@ -21,7 +23,9 @@
         "steam": "78",
         "foto1": "imagens\/BFCompany2.jpg",
         "foto2": "imagens\/BFCompany2_4.jpg",
-        "foto3": "imagens\/BFCompany2_2.jpg"
+        "foto3": "imagens\/BFCompany2_2.jpg",
+        "pasta": "false",
+        "preco": "59,99"
     },
     {
         "cod": "acu",
@@ -33,7 +37,9 @@
         "steam": "90",
         "foto1": "imagens\/AC_Unity.jpg",
         "foto2": "imagens\/AC_Unity4.jpg",
-        "foto3": "imagens\/AC_Unity3.jpg"
+        "foto3": "imagens\/AC_Unity3.jpg",
+        "pasta": "false",
+        "preco": "63,49"
     },
     {
         "cod": "csgo",
@@ -45,7 +51,9 @@
         "steam": "66",
         "foto1": "imagens\/csgo.jpg",
         "foto2": "imagens\/csgo2.jpg",
-        "foto3": "imagens\/csgo3.jpg"
+        "foto3": "imagens\/csgo3.jpg",
+        "pasta": "false",
+        "preco": "69,99"
     },
     {
         "cod": "re7",
@@ -57,7 +65,9 @@
         "steam": "89",
         "foto1": "imagens\/Resident_Evil.jpg",
         "foto2": "imagens\/Resident_Evil3.jpg",
-        "foto3": "imagens\/Resident_Evil4.jpg"
+        "foto3": "imagens\/Resident_Evil4.jpg",
+        "pasta": "false",
+        "preco": "159,99"
     },
     {
         "cod": "sof",
@@ -69,6 +79,20 @@
         "steam": "60",
         "foto1": "imagens\/sea_of_thieves.jpg",
         "foto2": "imagens\/sea_of_thieves2.jpg",
-        "foto3": "imagens\/sea_of_thieves4.jpg"
+        "foto3": "imagens\/sea_of_thieves4.jpg",
+        "pasta": "false",
+        "preco": "239,99"
+    },
+    {
+        "cod": "5c031b88e14de",
+        "nome": "Fran Bow",
+        "categoria": "Terror",
+        "descricao": "Fran Bow \u00e9 uma garota viciada em rem\u00e9dio pra dor de coluna que deixa ela meio alterada, al\u00e9m disso ela n\u00e3o tem um arco e flecha.",
+        "site": "89",
+        "usuario": "98",
+        "steam": "99",
+        "foto1": "imagens\/Fran_bolas1.png",
+        "foto2": "imagens\/Fran_bolas2.png",
+        "foto3": "imagens\/Fran_bolas3.png"
     }
 ]

@@ -40,8 +40,41 @@
     $jogos = json_decode($jogos_json, true);
 
     return $jogos;
+  
   }
 
+
+
+  function listaJogos2(){
+
+    $jogos_json = file_get_contents('../dados/jogos.json');
+    $jogos = json_decode($jogos_json, true);
+
+    return $jogos;
+  
+  }
+
+
+
+  function curtir($jogo){
+
+    $curtidaAtual = false;
+
+    $curtidas_json = file_get_contents('dados/curtidas.json');
+    $curtidas = json_decode($curtidas_json, true);
+
+    foreach ($curtidas as $curtida) {
+      if ($curtida['resenha'] == "$jogo" AND $curtida['usuario'] == 1) {
+
+        $curtidaAtual = true;
+        $curtida['curtiu'] = $curtidaAtual;
+        $json = json_encode($curtida, JSON_PRETTY_PRINT);
+        file_put_contents("curtidas.json", $json);
+
+      }
+    }
+  
+  }
 
 
 
@@ -51,13 +84,14 @@
 
     $mensagem = "";
 
-    $atual = listaJogos();
+    $atual = listaJogos2();
 
     $novoJogo = array(
           'cod' => uniqid(),
           'nome' => $_POST['nome'],
           'categoria' => $_POST['categoria'],
           'descricao' => $_POST['descricao'],
+          'site' => $_POST['site'],
           'usuario' => $_POST['usuario'],
           'steam' => $_POST['steam'],
           'foto1' => $destino[0][0],
@@ -178,7 +212,7 @@
 
   function buscaContas(){
 
-    @$contas_json =  file_get_contents('dados/usuarios.json');
+    @$contas_json = file_get_contents('dados/usuarios.json');
     $contas = json_decode($contas_json, true);
     
     return $contas;
@@ -198,13 +232,18 @@
     foreach ($jogos as $jogo) {
 
       $nome = strtolower($jogo['nome']);
+      $categoria = strtolower($jogo['categoria']);
       $busca = trim(strtolower($_GET['campo_busca']));
 
 
-      if (strpos($nome, $busca) !== false) {
+
+      if (strpos($nome, $busca) !== false ) {
 
         $jogos_encontrados[] = $jogo;
       
+      }
+      if (strpos($categoria, $busca) !== false) {
+        $jogos_encontrados[] = $jogo;
       }
     }
 

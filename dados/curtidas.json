@@ -1,0 +1,54 @@
+{
+    "0": {
+        "resenha": "gta",
+        "usuario": 2
+    },
+    "1": {
+        "resenha": "acu",
+        "usuario": 2
+    },
+    "2": {
+        "resenha": "sof",
+        "usuario": 3
+    },
+    "3": {
+        "resenha": "gta",
+        "usuario": 1
+    },
+    "4": {
+        "resenha": "sof",
+        "usuario": 1
+    },
+    "5": {
+        "resenha": "gta",
+        "usuario": 3
+    },
+    "6": {
+        "resenha": "gta",
+        "usuario": 4
+    },
+    "7": {
+        "resenha": "sof",
+        "usuario": 2
+    },
+    "8": {
+        "resenha": "acu",
+        "usuario": 1
+    },
+    "9": {
+        "resenha": "re7",
+        "usuario": 1
+    },
+    "10": {
+        "resenha": "csgo",
+        "usuario": 1
+    },
+    "12": {
+        "resenha": "bfbc2",
+        "usuario": null
+    },
+    "13": {
+        "resenha": "re7",
+        "usuario": 0
+    }
+}

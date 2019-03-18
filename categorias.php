@@ -1,8 +1,10 @@
 <?php 
 	require "menu.php"; 
 	require "php/funcoes.php";
+	require "php/funcoes_teste.php";
 
 	$catigurias = listarCategorias();
+	//criaPasta();
 
 ?>
 

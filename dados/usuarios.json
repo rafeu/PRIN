@@ -1,5 +1,6 @@
 [
     {
+        "id_user": 1,
         "nome": "Administrador",
         "nomeUser": "admin",
         "email": "admin.polar@gmail.com",
@@ -7,6 +8,7 @@
         "foto1": "imagens\/Black Rain nuvem.png"
     },
     {
+        "id_user": 2,
         "nome": "Gustavo Baierski",
         "nomeUser": "askynt",
         "email": "gustavobaierski@gmail.com",
@@ -14,6 +16,7 @@
         "foto1": "imagens\/3micro.png"
     },
     {
+        "id_user": 3,
         "nome": "Rafael Corr\u00eaa",
         "nomeUser": "rc0270",
         "email": "rc0270@gmail.com",
@@ -21,10 +24,27 @@
         "foto1": "imagens\/4micro.jpg"
     },
     {
+        "id_user": 4,
         "nome": "Thaynara Bacca",
         "nomeUser": "bacca",
         "email": "caroline@gmail.com",
         "senha": "nathangostoso",
+        "foto1": "imagens\/gato.jpg"
+    },
+    {
+        "id_user": 5,
+        "nome": "Mirian Luiza da Costa",
+        "nomeUser": "yunoringa",
+        "email": "mriianlcosta@hotmail.com",
+        "senha": "miri123456luiza",
+        "foto1": "imagens\/yunoringa.jpeg"
+    },
+    {
+        "id_user": 6,
+        "nome": "Emanuelle Dias",
+        "nomeUser": "Emanunu",
+        "email": "emanuelled966@gmail.com",
+        "senha": "manu",
         "foto1": "imagens\/gato.jpg"
     }
 ]

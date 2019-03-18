@@ -25,6 +25,7 @@ for ($i=0; $i < sizeof($contas); $i++) {
 		//gravar as informações na SESSION
 		$_SESSION['nome'] = $contas[$i]['nome'];
 		$_SESSION['login'] = $contas[$i]['nomeUser'];
+		@$_SESSION['id_user'] = $contas[$i]['id_user'];
 
 		echo '<h1 class="text_logged"> Olá, '. $_SESSION["nome"] . '!</h1>';
 
